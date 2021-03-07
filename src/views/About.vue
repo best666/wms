@@ -1,5 +1,18 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <h1>我是关于</h1>
+    <p>我是关于内容，呵呵呵呵</p>
   </div>
 </template>
+<script>
+  export default {
+    name: 'About',
+    components:{
+
+    }
+  }
+</script>
+
+<style>
+
+</style>
