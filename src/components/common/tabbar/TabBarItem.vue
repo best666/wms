@@ -45,7 +45,8 @@
     },
     methods:{
       itemClick(){
-        this.$router.replace(this.path)
+        //新版router返回本页时需要处理异常
+        this.$router.replace(this.path).catch(err =>{})
       }
     }
 }

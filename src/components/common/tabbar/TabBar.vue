@@ -5,10 +5,12 @@
 </template>
 
 <script>
-import TabbarItem from "@/components/common/tabbar/TabBarItem";
+import TabBarItem from "@/components/common/tabbar/TabBarItem";
 export default {
-name: "Tabbar",
-  components: {TabbarItem}
+name: "TabBar",
+  components: {
+  TabBarItem
+}
 }
 </script>
 

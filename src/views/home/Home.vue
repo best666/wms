@@ -1,8 +1,10 @@
 <template>
   <div>
     <h1>我是首页</h1>
-    <nav-bar class="home-nav"></nav-bar>
     <p>我是首页内容，哈哈哈哈</p>
+    <nav-bar path="/in"></nav-bar>
+    <nav-bar path="/out"></nav-bar>
+    <nav-bar path="/transfer"></nav-bar>
   </div>
 <!--  <router-view/>-->
 </template>

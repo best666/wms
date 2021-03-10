@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 //import Home from '../views/Home.vue'
 //import view from "vue-router/src/components/view";
 
+//路由懒加载
 const Home = () => import('../views/home/Home');
 const In = () => import('@/views/home/childComps/In');
 const Out = () => import('@/views/home/childComps/Out');
