@@ -18,12 +18,12 @@
 
 <script>
 
-import NavBar from "@/components/common/navbar/NavBar"
+// import NavBar from "@/components/common/navbar/NavBar"
 
 export default {
-  name: 'Home',
+  // name: 'Home',
   components: {
-    NavBar,
+    // NavBar,
   },
   data(){
     return{
