@@ -12,11 +12,11 @@
     </div>
     <div class="content">
       <div v-if="active === 0"
-           class="ruku">w我是入库</div>
+           class="ruku">我是入库</div>
       <div v-if="active === 1"
-           class="chuku">w我是出库</div>
+           class="chuku">我是出库</div>
       <div v-if="active === 2"
-           class="diaoku">w我是调库</div>
+           class="diaoku">我是调库</div>
     </div>
   </div>
 
