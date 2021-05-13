@@ -34,60 +34,63 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .about {
   background: #fafafa;
-}
-/* 顶部导航栏 */
-.about .nav {
-  height: 44px;
-  width: 100%;
-  background-color: #fff;
-  border-bottom: 1px solid #eee;
-  box-shadow: 0 1px 0 0 #eee;
-}
-.about .title {
-  font-size: 18px;
-  line-height: 44px;
-  text-align: center;
-}
-/* 信息 */
-.me .icon {
-  display: flex;
-  height: 72px;
-  /* flex-direction: column; */
-  justify-content: space-around;
-  align-items: center;
-  border-radius: 20px;
-  overflow: hidden;
-  background: #fff;
-  border-bottom: 1px solid #eee;
-}
-.me .icon > img {
-  width: 56px;
-  height: 56px;
-  background-repeat: no-repeat;
-  border-radius: 5px;
-}
-.me .icon .info {
-  text-align: center;
-}
-.me .icon .info > p {
-  font-size: 14px;
-  color: #ccc;
-}
-/* 设置 */
-.site{
-  margin-top: 20px;
-  background: #fff;
-}
-.site .s-li{
-  height: 44px;
-  line-height: 44px;
-  margin: 10px 30px;
-  text-align: center;
-  border: 1px solid #eee;
-  border-radius: 5px;
-  box-shadow: 2px 1px 2px #eee;
+  /* 顶部导航栏 */
+  .nav {
+    height: 44px;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 1px 0 0 #eee;
+    .title {
+      font-size: 18px;
+      line-height: 44px;
+      text-align: center;
+    }
+  }
+  /* 信息 */
+  .me {
+    .icon {
+      display: flex;
+      height: 72px;
+      /* flex-direction: column; */
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 20px;
+      overflow: hidden;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      & > img {
+        width: 56px;
+        height: 56px;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+      }
+      .info {
+        text-align: center;
+        & > p {
+          margin-top: -20%;
+          font-size: 14px;
+          color: #ccc;
+        }
+      }
+    }
+  }
+  /* 设置 */
+  .site {
+    margin-top: 20px;
+    background: #fff;
+    .s-li {
+      height: 44px;
+      line-height: 44px;
+      margin: 10px 30px;
+      text-align: center;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      box-shadow: 2px 1px 2px #eee;
+    }
+  }
 }
 </style>
